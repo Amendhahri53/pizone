@@ -1,0 +1,23 @@
+
+body{
+    background: #082032;
+}
+.card-container{
+    color: white;
+
+}
+.img-container{
+    color: white;
+    font-size: xx-large;
+}
+.desc{
+    margin-top:100px;
+    margin-left: 10px;
+    width: 50%;
+}
+.video-container{
+    color: white;
+}
+.desc{
+    margin-left: 2%;
+}

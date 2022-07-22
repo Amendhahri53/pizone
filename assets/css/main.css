@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #082032;
+
+}
+
+#logo{
+    width: 80%;
+
+    max-width: 100%;
+    
+}
+.logo-container{
+    margin-top: 1%;
+    margin-left: 2%;
+    padding:0 15px;
+    
+}
+.container{
+    margin: 0;
+    padding-top: 20px;
+        display: flex;
+        align-items: center;
+        background-color: #082032;
+        height: 100px;
+
+    }
+
+    .nav-hur{
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: large;
+        color: #FF4C29;
+        font-family: monospace;
+        transition: .3s linear;
+        margin: 0 6px;
+        padding: 5px;
+}
+.nav-hur:hover{
+    border:solid;
+    border-width:0px;
+    color: white;
+    background-color:#FF4C29 ;
+}
+
+/*Searsh Box*/
+.search-box{
+    margin-top: 40px;
+    margin-left: 140px;
+    transform: translate(-50%,-50%);
+    background: #334756;
+    height: 40px;
+    border-radius: 40px;
+}
+.search-box:hover > .search-txt{
+    width: 100px;
+    padding: 0 6px;
+    top: 20px;
+}
+.search-box:hover > .search-btn{
+   background: white;
+     }
+.search-btn{
+    color: #FF4C29;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #334756;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.search-txt{
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;   
+ line-height: 40px;
+ width: 0px;
+ 
+}
+/*  Coding da font bro*/
+/* .fonts{
+    background-size: cover;
+    background-image: url('/assets/img/back-2.jpg');
+    font-family: "Ubuntu", sans-serif;
+    padding: 30%;
+} */
+footer{
+    margin-top: 10px;
+    background-color: #334756;
+    color: white;
+    display: flex;
+}
+
+#da-footer{
+    font-size: xx-large;
+}
+.da-div{
+    display: flex;
+    flex-direction: column;
+}
+.da-a{
+    margin-right: 10px;
+}
+/* .sc{
+    display: flex;
+
+} */

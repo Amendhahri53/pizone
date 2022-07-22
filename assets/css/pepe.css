@@ -1,0 +1,30 @@
+.card-container{
+    margin-top: 100px;
+    display: flex
+}
+.card{
+    margin-left: 20px;
+    background-color: #2C394B;
+    color: white;
+    padding: 10px 10px;
+}
+.card-title{
+    font-size: xx-large;
+}
+.touch_scale::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: scale(1.8);
+  }
+.cart-container{
+    margin-left: 10%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
